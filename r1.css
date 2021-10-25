@@ -1,0 +1,83 @@
+@charset "ISO-8859-1";
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:'monsterrat',sans-serif;
+}
+body{
+	background:rgb(0, 255, 255);
+	padding : 0 10px;
+}
+.main{
+	max-width:500px;
+	width: 100%;
+	max-width:500px;
+	background:#fff;
+	margin:20px 100px;
+	padding:30px;
+	
+}
+.main .title{
+	font-size:24px;
+	font-weight:700;
+	margin-bottom:25px;
+	color:#fec107;
+	text-transform:uppercase;
+	text-align:center;
+}
+.main .form{
+	width:100%;
+	
+}
+.main .form .inputdata{
+	margin-bottom:15px;
+	display:flex;
+	align-items:center;
+}
+
+.main .form .inputdata label{
+
+	width:200px;
+	color:#757575;
+	margin-right:10px;
+	font-size:15px;
+}
+.main .form .inputdata .input{
+	width:100%;
+	outline:none;
+	border:1px solid #d5dbd9;
+	font-size:15px;
+	padding:8px 10px;
+	border-radius:3px;
+	transition:all 0.3s ease;
+}
+.main .form .inputdata .selection{
+	position:relative;
+	width:100%;
+	height:37px;
+	
+}
+.main .form .inputdata .selection select
+{
+	
+	appearance:none;
+	border:1px solid #d5dbd9;
+	width:100%;
+	height:100%;
+	font-size:15px;
+	padding:8px 10px;
+	border-radius:3px;
+	outline:none;
+}
+.main .form .inputdata .btn{
+	width:100%;
+	padding:8px 10px;
+	font-size:15px;
+	border:0;
+	background:rgb(6, 255, 19);
+	color:#fff;
+	cursor:pointer;
+	border-radius:3px;
+	outline:none;
+}

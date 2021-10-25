@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+
+body{
+		/*background:url(Background.jpg);*/
+		color:solid black;
+		background-position: cenetr;
+		background-size: cover;
+		/*position:absolute;*/
+		text-align: center;
+}
+h2{
+	color:orange;
+	font-family:sans-serif;
+	font-size:30px;
+}
+h3{
+	font-size:25px;
+}
+span{
+	
+}
